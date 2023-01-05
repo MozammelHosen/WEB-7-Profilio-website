@@ -1,3 +1,39 @@
-h1 {
-    font-size: 40px;
+* {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+}
+
+/* Header And Navbar Color Validation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: aliceblue;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.header-span {
+    color: #FD6E0A;
 }
